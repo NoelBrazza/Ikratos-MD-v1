@@ -18,9 +18,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Karachi').format('HH')
-    let wibm = moment.tz('Asia/Karachi').format('mm')
-    let wibs = moment.tz('Asia/Karachi').format('ss')
+let wibh = moment.tz('Africa/Nairobi').format('HH')
+    let wibm = moment.tz('Africa/Nairobi').format('mm')
+    let wibs = moment.tz('Africa/Nairobi').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -53,10 +53,10 @@ global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
 global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '68673045381' //Nomor Bot
-global.nomorown = '923470027813' //Nomor Owner
+global.nomorbot = '254724085270' //Nomor Bot
+global.nomorown = '254724085270' //Nomor Owner
 global.namebot = 'Ikratos-MD-v1' //Nama Bot
-global.nameown = 'ᴀʜᴍᴀᴅ ᴀʟɪ🇵🇰' // Nama Owner
+global.nameown = 'Tryton' // Nama Owner
 
 
 /*============== CHATGPT ==============*/
@@ -69,8 +69,8 @@ global.owner = [
   ['19293514545', 'ᴀʜᴍᴀᴅ ᴀʟɪ🎐', false] //Replace your name and number here
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['923470027813',''] //Don't replace this,If you want to add someone add any dev
-global.prems = [] // Premium user is not here to add it, type .addprem @ user 10
+global.mods = ['923470027813','254724085270'] //Don't replace this,If you want to add someone add any dev
+global.prems = [254724085270] // Premium user is not here to add it, type .addprem @ user 10
 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.lolkeysapi = ['BrunoSobrino']
